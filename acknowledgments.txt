@@ -1,0 +1,17 @@
+Acknowledgments
+
+
+The Libraries/Tools used 
+- NumPy — arrays and random number generation.
+- Pandas — reading/writing TSV files and simple summaries.
+- Matplotlib — quick histograms to inspect reward distributions.
+
+Data
+- I used the course provided files 
+- Also course example notebooks (dx601/dx602/dx603/dx704) for general patterns and review .
+
+
+People/Collaboration
+- I discussed this assignment with no one and did not use any additional sources beyond the course materials,
+other than occasional Google searches to help understand concepts covered in class. 
+

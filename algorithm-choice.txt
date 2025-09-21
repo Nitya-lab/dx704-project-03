@@ -1,0 +1,7 @@
+Algorithm choice: UCB1.
+
+Why I choose to use this: The rewards are steady over time and have an upper limit. UCB1 works well in that case and doesn’t need any tuning. It tries all arms, then keeps picking the one that looks best while still giving a little bonus to arms we’re less sure about.
+
+Why I choose to not use others: ε-greedy and softmax need knobs to tune (epsilon/temperature) and can do poorly if those are set badly. Thompson sampling needs a good probability model for the rewards, which is extra complexity here.
+
+Bottom line: I beleive UCB1 is the simplest, reliable choice for these bounded rewards.
