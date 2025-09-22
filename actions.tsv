@@ -1,4 +1,4 @@
-arm	min_reward	mean_reward	max_reward
+action	min_reward	mean_reward	max_reward
 0	0.000000	0.597759	3.761461
 1	0.000000	0.531647	2.988922
 2	0.000000	0.176597	0.966617
